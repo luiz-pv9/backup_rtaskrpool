@@ -1,0 +1,23 @@
+{
+  "name": "rpool",
+  "version": "0.0.1",
+  "description": "rethinkdb connection pool",
+  "scripts": {
+    "test": "mocha --harmony --recursive -t 10000 ./test"
+  },
+  "dependencies": {
+    "generic-pool": "^2.4.0",
+    "rethinkdb": "^2.2.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "keywords": [
+    "rethinkdb",
+    "connection",
+    "pool"
+  ],
+  "author": "outme.co",
+  "license": "ISC"
+}

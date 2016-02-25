@@ -1,0 +1,16 @@
+{
+  "name": "rtask",
+  "version": "0.0.1",
+  "description": "background job processing backed by redis",
+  "scripts": {
+    "test": "mocha --harmony --recursive -t 1000 ./test"
+  },
+  "author": "outme.co",
+  "dependencies": {
+    "ioredis": "^1.15.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
